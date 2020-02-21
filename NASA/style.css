@@ -48,7 +48,7 @@
     /* margin-right: 10px; */
     width: 270px;
     height: 100%;
-    background-color: lightgoldenrodyellow;
+    background-color: lightgrey;
 }
 
 .office-info {
@@ -56,7 +56,7 @@
     /* margin-right: 10px; */
     width: 270px;
     height: 100%;
-    background-color: lightpink
+    background-color: lightgrey;
 }
 
 .contact-us {
@@ -67,23 +67,38 @@
     background-color: lightseagreen;
 }
 
-#input [type=text] {
+/* #input [type=text] {
     width: 100%;
     box-sizing: border-box;
     padding: 12px, 20px;
     margin: 40px, o;
     box-sizing: border-box;
-}
+} */
 
-.name-entry {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-}
-
-/* form {
+/* .name-entry {
     display: flex;
     flex-direction: column;
     width: 90%;
 } */
 
+/* form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 20px;
+} */
+
+#input-one {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 20px;
+    
+}
+
+#input-two {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+}
