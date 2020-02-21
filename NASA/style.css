@@ -66,3 +66,24 @@
     height: 100%;
     background-color: lightseagreen;
 }
+
+#input [type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px, 20px;
+    margin: 40px, o;
+    box-sizing: border-box;
+}
+
+.name-entry {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+/* form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+} */
+
