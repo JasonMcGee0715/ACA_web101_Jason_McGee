@@ -100,5 +100,10 @@
     display: flex;
     flex-direction: column;
     width: 90%;
-
+    box-sizing: border-box;
+    height: 60px;
 }
+
+/* #message [type=text] {
+    height: 60px;
+} */
