@@ -49,6 +49,8 @@
     width: 270px;
     height: 100%;
     background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
 }
 
 .office-info {
@@ -64,7 +66,7 @@
     /* margin-right: 10px; */
     width: 270px;
     height: 100%;
-    background-color: lightseagreen;
+    background-color: lightgrey;
 }
 
 /* #input [type=text] {
