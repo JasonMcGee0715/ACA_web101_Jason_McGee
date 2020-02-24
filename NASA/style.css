@@ -71,6 +71,11 @@
     flex-direction: column;
 }
 
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
 /* #input [type=text] {
     width: 100%;
     box-sizing: border-box;
