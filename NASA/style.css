@@ -67,6 +67,8 @@
     width: 270px;
     height: 100%;
     background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
 }
 
 /* #input [type=text] {
@@ -109,3 +111,4 @@
 /* #message [type=text] {
     height: 60px;
 } */
+
