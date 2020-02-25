@@ -1,3 +1,15 @@
 body {
-    
+    width: auto;
+    height: auto;  
+    font-family: cursive;
 }
+
+header {
+    background-color: aquamarine;
+    width: auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
