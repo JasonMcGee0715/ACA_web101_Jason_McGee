@@ -15,7 +15,7 @@ header {
 
 #info-container {
     display: grid;
-    grid-template-columns: 30% 70% ;
+    grid-template-columns: 30% 70%;
 }
 
 #left-info {
@@ -27,4 +27,19 @@ header {
 #right-info {
     grid-column: 2/3;
     background-color: coral;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#lang {
+    display: flex;
+    justify-content: center;
+}
+
+#ref {
+    display: flex;
+    justify-content: space-evenly;
 }
