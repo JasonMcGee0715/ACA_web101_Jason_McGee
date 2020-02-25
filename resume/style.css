@@ -13,3 +13,18 @@ header {
     align-items: center;
 }
 
+#info-container {
+    display: grid;
+    grid-template-columns: 30% 70% ;
+}
+
+#left-info {
+    grid-column: 1/2;
+    background-color: burlywood;
+    padding-right: 10px;
+}
+
+#right-info {
+    grid-column: 2/3;
+    background-color: coral;
+}
