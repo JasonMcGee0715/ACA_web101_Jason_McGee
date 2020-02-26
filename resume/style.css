@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: aquamarine;
+    background-image: url("cropped_snowflake_header.jpg");
     width: auto;
     height: 200px;
     display: flex;
@@ -13,20 +13,33 @@ header {
     align-items: center;
 }
 
+header >h1 {
+    font-size: 36pt;
+    color: rgb(24, 36, 56);
+}
+
 #info-container {
     display: grid;
     grid-template-columns: 30% 70%;
+    background-image: url("blue_abstract_background.jpg");
+    background-size: cover;
+}
+
+hr {
+    border-top: 1px solid #8c8b8b;
+    border-bottom: 1px solid #ffffff;
 }
 
 #left-info {
     grid-column: 1/2;
-    background-color: burlywood;
-    padding-right: 50px;
+    /* background-color: burlywood; */
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 #right-info {
     grid-column: 2/3;
-    background-color: coral;
+    /* background-color: coral; */
     padding-left: 50px;
 }
 
@@ -76,12 +89,15 @@ h2 {
     align-self: center;
 }
 
-#profile-pic {
-    width: 100%;
-}
-
-/* img {
-    width:99%;
-    align-self: center;
+/* #profile-pic {
+    grid-column: 1/2;
 } */
 
+img {
+    width:99%;
+    align-self: center;
+}
+#references p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
