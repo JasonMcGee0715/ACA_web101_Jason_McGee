@@ -23,6 +23,7 @@ header >h1 {
     grid-template-columns: 30% 70%;
     background-image: url("blue_abstract_background.jpg");
     background-size: cover;
+    padding-bottom: 40px;
 }
 
 hr {
@@ -107,4 +108,14 @@ h3 {
     margin-bottom: 0px;
     margin-top: 0px;
     padding-left: 40px;
+}
+
+footer {
+    background-color: rgb(180, 225, 255);
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    /* padding-left: 300px;
+    padding-right: 300px; */
+    
 }
