@@ -40,7 +40,8 @@ hr {
 #right-info {
     grid-column: 2/3;
     /* background-color: coral; */
-    padding-left: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #work-exp {
@@ -78,7 +79,7 @@ h2 {
 }
 
 #right-info p {
-    width: 60%;
+    width: 80%;
     /* margin:auto; */
     align-self: center;
     /* text-align: center; */
@@ -100,4 +101,10 @@ img {
 #references p {
     padding-left: 5%;
     padding-right: 5%;
+}
+
+h3 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 40px;
 }
