@@ -69,6 +69,19 @@ h2 {
     /* margin:auto; */
     align-self: center;
     /* text-align: center; */
-
 }
+
+#left-info p {
+    width: 100%;
+    align-self: center;
+}
+
+#profile-pic {
+    width: 100%;
+}
+
+/* img {
+    width:99%;
+    align-self: center;
+} */
 
