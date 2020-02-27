@@ -12,7 +12,7 @@ body {
 
 @media (max-width: 1024px) {
     body {
-        background-color: aqua;
+        background-color: white;
     }
     
     #container {
@@ -21,7 +21,7 @@ body {
     }   
 
     #welcome {
-        background-color: darkgreen;
+        background-color: rgb(86, 167, 216);
         height: 300px;
         display: flex;
         justify-content: center;
@@ -32,7 +32,7 @@ body {
     #titles-section {
         display: flex;
         flex-direction: column;
-        background-color: grey;
+        background-color: rgb(247, 245, 246);
     }
 
     #title1 {
@@ -49,20 +49,41 @@ body {
         padding: 50px 150px 50px 150px;
     }
 
+    #title3 {
+        justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 50px 150px 50px 150px;
+    }
+
     #blue-box {
-        width: 155px;
-        border-bottom: teal solid 10px;
-        border-top: teal solid 10px;
-        /* justify-content: center; */
+        width: 130px;
+        height: 0px;
+        border: rgb(86, 167, 216) solid 12px;
+        justify-content: center;
         margin: 0;
     }
 
     #red-box {
-        width: 155px;
-        border-bottom: tomato 10px;
-        border-top: tomato 10px;
+        width: 130px;
+        height: 0px;
+        border: rgb(228, 111, 65) solid 12px;
         justify-content: center;
-        margin: 0em;
+        margin: 0;
+    }
+
+    #teal-box {
+        width: 130px;
+        height: 0px;
+        border: rgb(100, 202, 192) solid 12px;
+        justify-content: center;
+        margin: 0;
+    }
+
+    #welcome p {
+        color: whitesmoke;
+        font-size: 36pt;
+        padding: 0px 100px 0px 100px;
     }
 
     h2 {
