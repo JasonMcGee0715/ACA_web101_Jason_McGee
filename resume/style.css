@@ -4,7 +4,19 @@ body {
     font-family: cursive;
 }
 
+#full-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;  
+    grid-template-rows: 50px auto 50px;
+
+    grid-template-areas: 
+    "header header header"
+    "left right right"
+    "footer footer footer"
+}
+
 header {
+    grid-area: header
     background-image: url("cropped_snowflake_header.jpg");
     width: auto;
     height: 200px;
