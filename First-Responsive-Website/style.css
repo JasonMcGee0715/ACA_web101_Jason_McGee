@@ -104,29 +104,34 @@ body {
 
     #titles-section {
         display: flex;
+        width: auto;
+        height: auto;
         flex-direction: column;
         background-color: rgb(247, 245, 246);
     }
 
     #title1 {
+        color: rgb(27, 27, 27);
         justify-content: center;
         text-align: center;
         box-sizing: border-box;
-        padding: 50px 150px 50px 150px;
+        padding: 50px 150px 25px 150px;
     }
 
     #title2 {
+        color: rgb(27, 27, 27);
         justify-content: center;
         text-align: center;
         box-sizing: border-box;
-        padding: 50px 150px 50px 150px;
+        padding: 25px 150px 25px 150px;
     }
 
     #title3 {
+        color: rgb(27, 27, 27);
         justify-content: center;
         text-align: center;
         box-sizing: border-box;
-        padding: 50px 150px 50px 150px;
+        padding: 25px 150px 25px 150px;
     }
 
     #blue-box {
