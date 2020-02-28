@@ -88,8 +88,8 @@ body {
     }
     
     #container {
-        width: 450px;
-        min-width: 414px;
+        width: 375px;
+        min-width: 373px;
         margin:auto
     }   
 
