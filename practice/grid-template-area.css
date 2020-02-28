@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: brown;
+    grid-area: header;
+}
+
+nav {
+    background-color: burlywood;
+    grid-area: nav;
+}
+
+main {
+    background-color: coral;
+    grid-area: main;
+}
+
+aside {
+    background-color: cornflowerblue;
+    grid-area: aside;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: darkcyan;
+    grid-area: footer;
+}
+
+.container {
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "nav main"
+    "nav main"
+    "aside main"
+    "footer footer"
+}
