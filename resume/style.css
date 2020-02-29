@@ -40,11 +40,12 @@ header >h1 {
 hr {
     border-top: 1px solid #8c8b8b;
     border-bottom: 1px solid #ffffff;
+    width: 75%;
 }
 
 #left-info {
     grid-column: 1/2;
-    /* background-color: burlywood; */
+    background-color: rgb(232, 245, 253);
     padding-right: 20px;
     padding-left: 20px;
 }
