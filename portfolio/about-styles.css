@@ -1,21 +1,23 @@
 body {
-    background-color: aliceblue;
+    background-color: #fff5d7;
+    ;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #header {
-    height: 150px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-image: url("about-header.jpeg");
 }
 
 #lower-container {
     display: grid;
     grid-template-columns: 20% 80%;
     padding: 50px 50px 50px 50px;
+    /* background-color: rgb(237, 212, 214); */
 }
 
 #left-side {
