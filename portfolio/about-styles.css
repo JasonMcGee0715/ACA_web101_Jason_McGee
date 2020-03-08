@@ -4,6 +4,12 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#page-container {
+    width: 1024px;
+    height: auto;
+    margin: auto;
+}
+
 #header {
     display: flex;
     justify-content: center;
