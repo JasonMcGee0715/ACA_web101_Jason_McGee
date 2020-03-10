@@ -3,7 +3,7 @@ body {
 }
 
 #container {
-    width: auto
+    width: 1024px;
     height: auto;
     background-color: aliceblue;
     padding: 0px 150px 0px 150px;
