@@ -10,12 +10,12 @@ body {
     box-sizing: border-box;
   }
   
-  /* Create four equal columns that sits next to each other */
-  .column {
+/* Create four equal columns that sits next to each other */
+.column {
     flex: 25%;
     max-width: 24%;
     padding: 0 4px;
-  }
+}
   
   .column img {
     margin-top: 8px;
@@ -34,20 +34,20 @@ body {
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008cba;   
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008cba;   
 }
 
-.pic :hover .overlay {
-    opacity: 1;
+.pic:hover .overlay {
+  opacity: 1;
 }
 
 .text {
@@ -67,7 +67,7 @@ body {
   @media screen and (max-width: 800px) {
     .column {
       flex: 50%;
-      max-width: 50%;
+      max-width: 48%;
     }
   }
   
