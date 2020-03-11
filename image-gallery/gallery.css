@@ -3,7 +3,7 @@ body {
     font-weight: 400;
 }
 
-.row {
+.container {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
@@ -42,7 +42,7 @@ body {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: .7s ease;
   background-color: #008cba;   
 }
 
