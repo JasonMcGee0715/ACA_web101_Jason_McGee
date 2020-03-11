@@ -51,6 +51,7 @@ body {
 }
 
 .text {
+  font-weight: 400;
   color: whitesmoke;
   font-size: 20px;
   position: absolute;
