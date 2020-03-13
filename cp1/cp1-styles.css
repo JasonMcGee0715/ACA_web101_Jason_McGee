@@ -1,20 +1,104 @@
+body {
+    background: #ededed url(https://freewebsitetemplates.com/preview/hairstylesalon/images/bg-header.gif) repeat-x top center;
+    line-height: 1;
+    font-size: 14p;
+    width: 100%;
+    height: 1200px;
 
-
-header {
-    text-align: center;
-    padding: 45px 400px 0px 400px
 }
 
-nav {
+.container {
+    width: 960px;
+    height: 100%;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    height: 130px;
+    padding-top: 60px;
+
+}
+
+.logo {
+    float: left;
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
-.picture {
-    width: 1600px;
-    height: 300px;
-    background-image: url("/images/sunglasses.jpg");
-    background-size: cover;
-    box-sizing: border-box;  
+.logo a {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
 }
+
+.nav {
+    
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5%;
+    
+
+}
+
+.nav button {
+    height: 30px;
+    padding: 5px 15px 5px 15px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    border-radius: 6px;
+
+    
+}
+
+.logo {
+    width: 270px;
+    height: 130px;
+    background-color: rgb(31, 31, 49);
+    position: relative;
+    color: whitesmoke;
+}
+
+#name {
+    color: whitesmoke;
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+}
+
+.bigpic {
+    background-color: white ;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: teal solid 2.5px;
+    display: flex;
+    align-items: center;
+}
+
+.bigpic img {
+    padding-right: 60px;
+}
+
+.bigpic h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.four-pics {
+    display: flex;
+    margin-top: 50px;
+}
+
+.front1 p, .front2 p, .front3 p, .front4 p {
+    width: 75%;
+}
+
+.four-pics img {
+    border-radius: 5px;
+    border: teal solid 3px;
+}
+
+
