@@ -4,7 +4,6 @@ body {
     font-size: 14p;
     width: 100%;
     height: 1200px;
-
 }
 
 .container {
@@ -17,7 +16,6 @@ body {
     width: 100%;
     height: 130px;
     padding-top: 60px;
-
 }
 
 .logo {
@@ -38,8 +36,6 @@ body {
     display: flex;
     justify-content: flex-end;
     padding-top: 5%;
-    
-
 }
 
 .nav button {
@@ -48,9 +44,10 @@ body {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 20px;
-    border-radius: 6px;
-
-    
+    border-radius: 4px;
+    background-color: rgb(31, 31, 49);
+    color: white;
+    border: none; 
 }
 
 .logo {
@@ -101,4 +98,20 @@ body {
     border: teal solid 3px;
 }
 
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+.left {
+    display: grid;
+    grid-column: 1/2;
+    padding-left: 15x;
+    padding-right: 15px;
+}
+
+.right {
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+}
