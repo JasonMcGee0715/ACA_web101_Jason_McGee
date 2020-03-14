@@ -1,3 +1,7 @@
+header {
+    background-color: #ededed;
+}
+
 body {
     background: #ededed url(https://freewebsitetemplates.com/preview/hairstylesalon/images/bg-header.gif) repeat-x top center;
     line-height: 1;
@@ -101,17 +105,55 @@ body {
 .bottom {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
 }
 
 .left {
     display: grid;
     grid-column: 1/2;
-    padding-left: 15x;
+    padding-left: 15px;
     padding-right: 15px;
+    /* padding-right: 15px; */
+    border: teal solid 3px;
+    margin-right: 10px;
+    position: relative;
 }
 
 .right {
     grid-column: 2/3;
     display: flex;
     flex-direction: column;
+    border: teal solid 3px;
+    margin-left: 10px;
 }
+
+#featured-label {
+    background-color: rgb(31, 31, 49);
+    border: teal;
+    font-size: 28px;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    align-items: center;
+    position: absolute;
+    top: -3%;
+    left: 3.4%;
+}
+
+.featured-inner-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+.featured-inner-container .hairspan {
+    padding-left: 50px;
+}
+
+
+
+
