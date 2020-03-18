@@ -31,6 +31,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 270px;
+    height: 130px;
+    background-color: rgb(31, 31, 49);
+    position: relative;
+    color: whitesmoke;
 }
 
 .logo a {
@@ -46,9 +51,10 @@ header {
     padding-top: 5%;
 }
 
-.nav button {
+
+.nav .button {
     height: 30px;
-    padding: 5px 15px 5px 15px;
+    padding: 12px 15px 0px 15px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 20px;
@@ -56,14 +62,9 @@ header {
     background-color: rgb(31, 31, 49);
     color: white;
     border: none; 
+    text-decoration: none;
 }
 
-.logo {
-    width: 270px;
-    height: 130px;
-    background-color: rgb(31, 31, 49);
-    position: relative;
-    color: whitesmoke;
 }
 
 #name {
@@ -376,3 +377,126 @@ h3 {
     margin-left: 40px;
     padding: 0px 15px;
 }
+
+
+
+
+/* START MOBILE VERSION */
+
+@media (max-width: 600px){
+    body {
+        background-color: lawngreen;
+        width: 100%;
+        margin: auto;
+    }
+
+    header {
+        width: 100%;
+        height: 160px;
+    }
+
+    .navbar {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        align-self: center;
+    }
+
+    .nav {
+        width: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 15px;
+    }
+
+    .nav .button {
+        height: 30px;
+        padding: 12px 15px 0px 15px;
+        margin-bottom:7px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+        border-radius: 4px;
+        background-color: rgb(31, 31, 49);
+        color: white;
+        border: none; 
+        text-decoration: none;
+    }
+    
+    main {
+        width: 500px;
+        margin: auto;
+    }
+
+    .bigpic {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bigpic img {
+        padding: 0;
+    }
+
+    .bigpic h1 {
+        text-align: center;
+        padding: 0;
+    }
+
+    .four-pics {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        justify-content: center;
+        padding-left: 125px;
+    }
+
+    .four-pics img {
+        display: flex;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom .right {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .left {
+        margin-right: 0;
+    }
+
+
+        /* START MOBILE NEWS CODING */
+
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        width: 500px
+    }
+
+    .left-text {
+        margin-bottom: 0;
+    }
+
+    .inner {
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .gridpics {
+        width: 500px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%
+    }
