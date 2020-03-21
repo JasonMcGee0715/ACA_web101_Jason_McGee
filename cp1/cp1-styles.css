@@ -232,6 +232,13 @@ footer {
 
 .connect a {
     background: url(https://freewebsitetemplates.com/preview/hairstylesalon/images/icons.png) no-repeat;
+    display: block;
+    float: left;
+    height: 20px;
+    margin: 0 8px;
+    padding: 0;
+    text-indent: -99999px;
+    width: 20px;
 }
 
 .footer p {
