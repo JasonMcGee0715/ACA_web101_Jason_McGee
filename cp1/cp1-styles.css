@@ -193,7 +193,7 @@ header {
 
 #baldy {
     display: flex;
-    background-color: teal;
+    background-color: rgb(92, 142, 149);
     position: relative;
 }
 #baldy p {
