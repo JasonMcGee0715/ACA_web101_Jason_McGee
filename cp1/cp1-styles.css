@@ -78,7 +78,7 @@ header {
     background-color: white ;
     margin-top: 50px;
     border-radius: 5px;
-    border: teal solid 2.5px;
+    border: rgb(92, 142, 149) solid 2.5px;
     display: flex;
     align-items: center;
 }
@@ -105,7 +105,7 @@ header {
 
 .four-pics img {
     border-radius: 5px;
-    border: teal solid 3px;
+    border: rgb(92, 142, 149) solid 3px;
 }
 
 .bottom {
@@ -119,7 +119,7 @@ header {
     grid-column: 1/2;
     padding-left: 15px;
     padding-right: 15px;
-    border: teal solid 3px;
+    border: rgb(92, 142, 149) solid 3px;
     margin-right: 10px;
     position: relative;
     line-height: 1.5;
@@ -135,7 +135,7 @@ header {
 
 #featured-label {
     background-color: rgb(31, 31, 49);
-    border: teal;
+    border: rgb(92, 142, 149);
     font-size: 28px;
     width: 140px;
     height: 40px;
@@ -162,7 +162,7 @@ header {
 
 #hairstyle {
     background-color: rgb(31, 31, 49);
-    border: teal;
+    border: rgb(92, 142, 149);
     font-size: 28px;
     width: 140px;
     height: 40px;
@@ -177,7 +177,7 @@ header {
 }
 
 .right-top {
-    background-color: teal;
+    background-color: rgb(92, 142, 149);
 }
 
 #hairstyle-words {
@@ -188,7 +188,7 @@ header {
 
 .right-bottom {
     margin-top: 30px;
-    border: teal solid 3px;
+    border: rgb(92, 142, 149) solid 3px;
 }
 
 #baldy {
@@ -392,7 +392,7 @@ h3 {
 
 @media (max-width: 600px){
     body {
-        background-color: lawngreen;
+        background-color: #ededed;
         width: 100%;
         margin: auto;
     }
