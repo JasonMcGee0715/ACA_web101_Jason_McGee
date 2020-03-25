@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <title>Resume</title>
     <link rel="stylesheet" href="style.css">
+    <script src="resume-interactive.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <div id="full-container">
         <header>
-            <h1>Santa Claus</h1>
+            <h1 id="mainName" onclick="nameFade()">Santa Claus</h1>
         </header>
         <main>
              <div id="info-container">
                  <div id="left-info">
                      <section id="profile-pic">
-                         <img src="santa.jpg" alt="Picture of Santa">
+                         <img src="santa.jpg" alt="Picture of Santa" id="santaPic" onmouseover = "picGone()">
                      </section>
                      <hr>
-                     <section id="profile">
+                     <section id="profile" onmouseover="titleFun()">
                          <h2>Profile</h2>
                          <p>I sling presents to all the good kids throughout the world in a 
                              span of 24 hours.  Don't be jealous just because I'm amazing and 
@@ -31,7 +33,7 @@
                          <h2>Contact</h2>
                          <p>I respond to smoke signals</p>
                          <p>You can write me a letter</p>
-                         <p>Call the Elf hotline at 311-435-6869</p>
+                         <p id="numberP" onclick="numberGone()">Call the Elf hotline at 311-435-6869</p>
                      </section>
                      <hr>
                      <section id="skills">
