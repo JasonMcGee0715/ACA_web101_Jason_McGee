@@ -89,7 +89,7 @@ body {
     
     #container {
         width: 375px;
-        min-width: 373px;
+        /* min-width: 375px; */
         margin:auto
     }   
 
